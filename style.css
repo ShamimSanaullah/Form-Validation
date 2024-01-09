@@ -82,16 +82,16 @@ body{
 .form-control i{
     position: absolute;
     right: 12px;
-    top: 38px;
-    visibility: hidden;
+    top: 30px;
+    visibility: visible;
 }
-.form-control i.success.fa-circle-check{
+.form-control .success  i.fa-circle-check{
     color: #2ecc71;
     visibility: visible;
 
 }
-.form-control i .error .fa-circle-exclamation{
-    color: #2ecc71;
+.form-control .error i.fa-circle-exclamation{
+    color:  #e74c3e;
     visibility: visible;
 
 }
